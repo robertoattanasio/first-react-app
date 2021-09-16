@@ -1,0 +1,16 @@
+.main-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 1170px) {
+	.main-wrapper {
+		flex-flow: column nowrap;
+	}
+	.results {
+		margin-left: 0;
+	}
+}
